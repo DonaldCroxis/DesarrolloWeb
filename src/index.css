@@ -1,3 +1,5 @@
+@import url('https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+
 *{
     padding: 0;
     margin: 0;
@@ -27,7 +29,6 @@ label.logo{
 nav ul{
     float: right;
     margin-right: 20px;
-
 }
 
 nav ul li{
@@ -50,4 +51,100 @@ a.active,a:hover{
 }
 
 /* TERMINA BARRA DE NAVEGACION*/
+
+/* EFECTO SCROLL*/
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: mandatory;
+}
+
+.container .section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+}
+
+.container .section:nth-child(1){
+    background-image: url(https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(2){
+    background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container .section .content{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 700px;
+}
+
+.container .section .content h2{
+    background: #fff;
+    color: #111;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2em;
+}
+
+.container .section .content p{
+    background: #fff;
+    color: #111;
+    font-weight: 300;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+/* TERMINA EFECTO SCROLL*/
+
+/* View Boton*/
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fff;
+    border: none;
+    color: #111;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   button:hover span {
+    padding-right: 15px;
+   }
+   
+   button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+/* Termina View Boton*/
 
