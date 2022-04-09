@@ -1,4 +1,12 @@
 @import url('https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+/* Paleta de colores
+#D4ECDD
+#345B63
+#152D35
+#112031
+https://colorhunt.co/palette/d4ecdd345b63152d35112031
+*/
+
 
 *{
     padding: 0;
@@ -10,16 +18,17 @@
 
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #D4ECDD;
 }
 
 /* BARRA DE NAVEGACION*/
 nav{
-    background: dodgerblue;
+    background: #112031;
     height: 80px;
 }
 
 label.logo{
-    color: white;
+    color: #D4ECDD;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -38,7 +47,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #D4ECDD;
     font-size: 17px;
     text-transform: uppercase;
     padding: 7px 13px;
@@ -47,7 +56,7 @@ nav ul li a{
 
 a.active,a:hover{
     transition: .5s;
-    background: deepskyblue;
+    background: #345B63;
 }
 
 /* TERMINA BARRA DE NAVEGACION*/
@@ -70,13 +79,13 @@ a.active,a:hover{
 }
 
 .container .section:nth-child(1){
-    background-image: url(https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-attachment: fixed;
 }
 
 .container .section:nth-child(2){
-    background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -89,8 +98,8 @@ a.active,a:hover{
 }
 
 .container .section .content h2{
-    background: #fff;
-    color: #111;
+    background: #D4ECDD;
+    color: #112031;
     font-weight: 600;
     display: inline-block;
     padding: 10px 20px;
@@ -98,8 +107,8 @@ a.active,a:hover{
 }
 
 .container .section .content p{
-    background: #fff;
-    color: #111;
+    background: #D4ECDD;
+    color: #112031;
     font-weight: 300;
     padding: 10px 20px;
     margin-top: 10px;
@@ -110,9 +119,9 @@ a.active,a:hover{
 button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #D4ECDD;
     border: none;
-    color: #111;
+    color: #112031;
     text-align: center;
     font-size: 17px;
     padding: 16px;
