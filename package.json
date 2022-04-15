@@ -1,0 +1,28 @@
+{
+  "name": "desarrolloweb",
+  "version": "1.0.0",
+  "description": "Proyecto Final (Desarrollo de aplicaciones web)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonaldCroxis/DesarrolloWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DonaldCroxis/DesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/DonaldCroxis/DesarrolloWeb#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1"
+  }
+}
