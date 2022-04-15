@@ -2,10 +2,10 @@
   "name": "desarrolloweb",
   "version": "1.0.0",
   "description": "Proyecto Final (Desarrollo de aplicaciones web)",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "node src/app.js",
-    "dev" : "nodemon src/app.js"
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "express": "^4.17.3",
     "express-handlebars": "^6.0.5",
     "express-myconnection": "^1.0.4",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
   }
 }
